@@ -64,48 +64,22 @@ ml-expt-6/
   ```
   - Navigate to the Experiment-6 folder and open a notebook in your browser
 
-## 📈 Model Performance  
+## 📈 Model Performance (No-PCA vs With-PCA)
 
-### Support Vector Machine (SVM)
-- **Performance (No-PCA):** `0.9314`  
-- **Performance (With-PCA):** `0.9245`  
-
-### Naive Bayes
-- **Performance (No-PCA):** `0.7254`  
-- **Performance (With-PCA):** `0.8329`  
-
-### K-Nearest Neighbors (KNN)
-- **Performance (No-PCA):** `0.9108`  
-- **Performance (With-PCA):** `0.9085`  
-
-### Logistic Regression
-- **Performance (No-PCA):** `0.9130`  
-- **Performance (With-PCA):** `0.9176`  
-
-### Decision Tree (DT)
-- **Performance (No-PCA):** `0.8902`  
-- **Performance (With-PCA):** `0.8741`  
-
-### Random Forest
-- **Performance (No-PCA):** `0.9245`  
-- **Performance (With-PCA):** `0.9085`  
-
-### AdaBoost
-- **Performance (No-PCA):** `0.9153`  
-- **Performance (With-PCA):** `0.9016`  
-
-### Gradient Boosting
-- **Performance (No-PCA):** `0.9314`  
-- **Performance (With-PCA):** `0.9085`  
-
-### XGBoost
-- **Performance (No-PCA):** `0.9405`  
-- **Performance (With-PCA):** `0.9108`  
-
-### Stacked Models
-- **Performance (No-PCA):** `0.9199`  
-- **Performance (With-PCA):** `0.9199`  
-
+|--------------------|---------------------|------------------------|
+| Model              | Performance (No-PCA)| Performance (With-PCA) |
+|--------------------|---------------------|------------------------|
+| SVM                | 0.9314              | 0.9245                 |
+| Naive Bayes        | 0.7254              | 0.8329                 |
+| KNN                | 0.9108              | 0.9085                 |
+| Logistic Regression| 0.9130              | 0.9176                 |
+| Decision Tree      | 0.8902              | 0.8741                 |
+| Random Forest      | 0.9245              | 0.9085                 |
+| AdaBoost           | 0.9153              | 0.9016                 |
+| Gradient Boosting  | 0.9314              | 0.9085                 |
+| XGBoost            | 0.9405              | 0.9108                 |
+| Stacked Models     | 0.9199              | 0.9199                 |
+|--------------------|---------------------|------------------------|
 
 ## 🙌 Credits
 
