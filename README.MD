@@ -65,8 +65,6 @@ ml-expt-6/
   - Navigate to the Experiment-6 folder and open a notebook in your browser
 
 ## 📈 Model Performance (No-PCA vs With-PCA)
-
-|--------------------|---------------------|------------------------|
 | Model              | Performance (No-PCA)| Performance (With-PCA) |
 |--------------------|---------------------|------------------------|
 | SVM                | 0.9314              | 0.9245                 |
@@ -79,7 +77,6 @@ ml-expt-6/
 | Gradient Boosting  | 0.9314              | 0.9085                 |
 | XGBoost            | 0.9405              | 0.9108                 |
 | Stacked Models     | 0.9199              | 0.9199                 |
-|--------------------|---------------------|------------------------|
 
 ## 🙌 Credits
 
