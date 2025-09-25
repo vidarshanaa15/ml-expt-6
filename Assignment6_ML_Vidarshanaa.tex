@@ -1814,17 +1814,18 @@ Naive Bayes         & 0.7586 & 0.7254 \\
 \end{tabular}
 \end{table}
 
-\vspace{0.5cm}
+\vspace{0.8cm}
 \section{Observations}
 \begin{itemize}
     \item \textbf{Which models improved most with PCA? Which did not? Why?} \\
-    Naive Bayes and KNN benefited most from PCA, with Naive Bayes rising from 0.7437 to 0.8384 and KNN from 0.9076 to 0.9089 in 5-fold CV. Ensemble models like Random Forest, Gradient Boosting, and XGBoost improved moderately (~0.5–0.7\%), showing PCA mainly aids models sensitive to correlated or redundant features.
+Naive Bayes and KNN benefited most from PCA, with Naive Bayes rising from 0.7437 to 0.8384 and KNN from 0.9076 to 0.9089 in 5-fold CV. Ensemble models like Random Forest, Gradient Boosting, and XGBoost improved moderately (~0.5–0.7\%), showing PCA mainly aids models sensitive to correlated or redundant features~\cite{lubis2020accuracy}.
+
 
     \item \textbf{Did PCA reduce variance across folds (more stable results)?} \\
     Yes. For most models, the fold-to-fold fluctuation decreased slightly with PCA. For example, Naive Bayes' standard deviation across folds dropped noticeably (from ~0.015 to ~0.007), indicating PCA stabilized learning by removing noisy/redundant features. 
 
     \item \textbf{For high-dimensional data, was PCA beneficial in reducing overfitting?} \\
-    PCA helped reduce overfitting for simpler or more flexible models. Naive Bayes and KNN had better test performance after PCA, while ensemble models were already robust. 
+PCA helped reduce overfitting for simpler or more flexible models. Naive Bayes and KNN had better test performance after PCA, while ensemble models were already robust~\cite{salam2021effect}.
 
     \item \textbf{How did linear models (Logistic Regression, SVM) behave compared to ensemble models with PCA?} \\
     SVM and Logistic Regression showed minor changes in both CV and test performance, suggesting linear models are less sensitive to redundant features in this dataset. In contrast, ensemble methods like Random Forest, Gradient Boosting, and XGBoost maintained high performance with PCA, confirming their inherent ability to handle high-dimensional input without heavy reliance on dimensionality reduction.  
@@ -1847,5 +1848,11 @@ Naive Bayes         & 0.7586 & 0.7254 \\
 \noindent
 \textbf{GitHub Repository:} \\
 \href{https://github.com/vidarshanaa15/ml-expt-6}{https://github.com/vidarshanaa15/ml-expt-6}
-    
+
+% ----------------------------
+% Bibliography
+% ----------------------------
+\bibliographystyle{ieeetr}  % or plain, unsrt, etc.
+\bibliography{expt6}         % no .bib extension here!
+
 \end{document}

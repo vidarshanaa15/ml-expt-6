@@ -33,6 +33,7 @@ ml-expt-6/
 │   ├── expt-6_15_1.png
 │   ├── ...
 │   └── subplot.png
+├── Assignment6_ML_Vidarshanaa.bib  # Bibiliography
 ├── Assignment6_ML_Vidarshanaa.pdf  # Lab report
 ├── Assignment6_ML_Vidarshanaa.tex  # Latex report
 └── requirements.txt                # Python packages and versions used
