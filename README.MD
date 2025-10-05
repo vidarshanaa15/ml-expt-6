@@ -1,4 +1,4 @@
-# Experiment 5:  Dimensionality Reduction and Model Evaluation (With and Without PCA)
+# Experiment 6:  Dimensionality Reduction and Model Evaluation (With and Without PCA)
 
 ## 🎯 Objective
 To study the effect of dimensionality reduction using Principal Component Analysis (PCA) on the
